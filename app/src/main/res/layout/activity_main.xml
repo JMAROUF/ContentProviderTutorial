@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="ISBN" />
+    <EditText
+        android:id="@+id/txtISBN"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent" />
+    <TextView
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Title" />
+    <EditText
+        android:id="@+id/txtTitle"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent" />
+    <Button
+        android:text="Add title"
+    android:id="@+id/btnAdd"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onClickAddTitle" />
+    <Button
+        android:text="Retrieve titles"
+    android:id="@+id/btnRetrieve"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onClickRetrieveTitles" />
+    <EditText
+        android:id="@+id/deletedBook"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+    <Button
+        android:text="delete books"
+        android:id="@+id/btnDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDeleteBook" />
+</LinearLayout>
